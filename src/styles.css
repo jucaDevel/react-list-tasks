@@ -1,0 +1,42 @@
+body{
+    padding: 50px;
+}
+
+p{
+    margin: 0;
+    cursor: pointer;
+}
+.list-group-item{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete{
+    text-decoration: line-through;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-task{
+    width: 100%;
+    margin: 5px;
+}
+
+.item-content{
+    width: 100%;
+}
+
+.form-task{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.form-add-task{
+    margin: 0 10px;
+}
